@@ -10,20 +10,20 @@
   <body>
     <!-- Header -->
     <header>  
-      <a href="#home" class="logo"><img src="img/jeep.png" alt=""></a> 
+      <a href="#home" class="logo"><img src="img/jeep.png" alt=""><img src="img/Rent.png" alt=""></a> 
 
       <div class="bx bx-menu" id="menu-icon"></div>
       <ul>  
-        <li><a href="#home" id="home-link">Home</a></li>
-        <li><a href="#carapakai" id="carapakai-link">Cara Pakai</a></li>
-        <li><a href="#kendaraan" id="kendaraan-link">Kendaraan</a></li>
-        <li><a href="#tentang" id="tentang-link">Tentang Kami</a></li>
-        <li><a href="#reviews" id="reviews-link">Reviews</a></li>
+        <li><a href="#home" id="home-link" class="homecolor">Home</a></li>
+        <li><a href="#carapakai" id="carapakai-link" class="homecolor">Cara Pakai</a></li>
+        <li><a href="#kendaraan" id="kendaraan-link" class="homecolor">Kendaraan</a></li>
+        <li><a href="#tentang" id="tentang-link" class="homecolor">Tentang Kami</a></li>
+        <li><a href="#reviews" id="reviews-link" class="homecolor">Reviews</a></li>
       </ul>
 
       <div class="header-btn">
-        <a href="registrasi.php" class="Daftar">Daftar</a>
-        <a href="login.php" class="Masuk">Masuk</a>
+        <a href="masuk.php" class="Daftar">Daftar</a>
+        <a href="masuk.php" class="Masuk">Masuk</a>
       </div>
 
     </header>
@@ -66,19 +66,19 @@
         <div class="box">
           <i class='bx bxs-map'></i>
           <h2>Choose a Location</h2>
-          <p>lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+          <p>Pilih lokasi yang sesuai dengan anda.</p>
         </div>
 
         <div class="box">
           <i class='bx bxs-calendar-check'></i>
           <h2>Pilih Tanggal Rental</h2>
-          <p>lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+          <p>Tentukan tanggal pemesanan dan pengembalian anda.</p>
         </div>
             
         <div class="box">
           <i class='bx bxs-car'></i>
           <h2>Pesan Kendaraan</h2>
-          <p>lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+          <p>Pilih kendaraan yang anda inginkan.</p>
         </div>
       </div>
     </section>
@@ -87,66 +87,108 @@
     <section class="kendaraan" id="kendaraan">
       <div class="heading">
         <span>Layanan Terbaik</span>
-        <h1>Explore Out Top Deals <br> From Top Rated Dealers</h1>
+        <h1>Paling Sering  Di Pesan</h1>
       </div>
       <div class="layanan-container">
         <div class="box">
           <div class="box-img">
-            <img src="img/car1.jpg" alt="" />
+            <img src="img/Mitsubishi Fuso.png" alt="" />
         </div>
         <p>2017</p>
-        <h3>2018 Honda Civic</h3>
-        <h2>$58500 | $358 <span>/month</span></h2>
+        <h3> Mitsubishi Fuso</h3>
+        <div class="bintang">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+        <h2> Rp. 280.000,00 <span>/Hari</span></h2>
         <a href="#" class="btn">Rental </a>
       </div>
 
       <div class="box">
           <div class="box-img">
-            <img src="img/car2.jpg" alt="" />
+            <img src="img/Toyota Fortuner.png" alt="" />
         </div>
         <p>2017</p>
-        <h3>2018 Honda Civic</h3>
-        <h2>$58500 | $358 <span>/month</span></h2>
+        <h3> Toyota Fortuner</h3>
+        <div class="bintang">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+        <h2>Rp. 250.000,00 <span>/Hari</span></h2>
         <a href="#" class="btn">Rental </a>
       </div>
 
       <div class="box">
           <div class="box-img">
-            <img src="img/car3.jpg" alt="" />
+            <img src="img/Supra 150.png" alt="" />
         </div>
         <p>2017</p>
-        <h3>2018 Honda Civic</h3>
-        <h2>$58500 | $358 <span>/month</span></h2>
+        <h3> Supra 150</h3>
+        <div class="bintang">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+        <h2>Rp.80.000,00 <span>/Hari</span></h2>
         <a href="#" class="btn">Rental </a>
       </div>
 
       <div class="box">
           <div class="box-img">
-            <img src="img/car4.jpg" alt="" />
+            <img src="img/SatriaF150.png" alt="" />
         </div>
-        <p>2017</p>
-        <h3>2018 Honda Civic</h3>
-        <h2>$58500 | $358 <span>/month</span></h2>
+        <p>2016</p>
+        <h3> Satria F150</h3>
+        <div class="bintang">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+        <h2>Rp.80.000,00<span>/Hari</span></h2>
         <a href="#" class="btn">Rental </a>
       </div>
 
       <div class="box">
           <div class="box-img">
-            <img src="img/car5.jpg" alt="" />
+            <img src="img/COLTL300.png" alt="" />
         </div>
         <p>2017</p>
-        <h3>2018 Honda Civic</h3>
-        <h2>$58500 | $358 <span>/month</span></h2>
+        <h3> COLT L300</h3>
+        <div class="bintang">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+        <h2>Rp.175.000,00<span>/Hari</span></h2>
         <a href="#" class="btn">Rental </a>
       </div>
 
       <div class="box">
           <div class="box-img">
-            <img src="img/car6.jpg" alt="" />
+            <img src="img/images (1).jpeg.jpg" alt="" />
         </div>
         <p>2017</p> 
-        <h3>2018 Honda Civic</h3>
-        <h2>$58500 | $358 <span>/month</span></h2>
+        <h3>2018 Toyota Avanza</h3>
+        <div class="bintang">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star-half'></i>
+      </div>
+        <h2>Rp. 200.000,00 <span>/Hari</span></h2>
         <a href="#" class="btn">Rental </a>
       </div>
     </div>
@@ -156,7 +198,7 @@
     <section class="tentang" id="tentang">
     <div class="heading">
         <span>Layanan Terbaik</span>
-        <h1>Explore Out Top Deals <br> From Top Rated Dealers</h1>
+        <h1>Paling Sering <br> Di Pesan</h1>
       </div>
       <div class="tentang-container">
         <div class="tentang-img">
@@ -164,8 +206,8 @@
         </div>
         <div class="tentang-text">
           <span>Tentang Kami</span>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus animi illo, totam veniam reiciendis dolores minus distinctio labore aut consectetur velit blanditiis eum expedita. Neque, a. Eaque, facere consectetur cumque corporis earum a.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt illo delectus quisquam ipsam nemo praesentium provident id consectetur.</p>
+          <p>Industri rental kendaraan di Indonesia semakin berkembang seiring dengan meningkatnya jumlah wisatawan domestik dan internasional, serta berkembangnya bisnis online. Namun, masih banyak konsumen yang mengalami kesulitan dalam menyewa kendaraan tanpa sopir. Untuk itu, kami memperkenalkan aplikasi rental kendaraan self-drive yang dapat digunakan oleh pebisnis, masyarakat umum, dan wisatawan.</p>
+          <p>Dalam upaya meningkatkan pelayanan kepada penyewa kendaraan, kami berkomitmen untuk memberikan pengalaman baru dengan cara memberikan fleksibilitas yang lebih baik. Selain itu, kami juga fokus untuk menggarap segmen pasar baru yaitu para pebisnis yang membutuhkan kendaraan sebagai sarana untuk mendukung usaha mereka. Dengan cara ini, kami berharap dapat memenuhi kebutuhan serta meningkatkan kepuasan pelanggan dalam menggunakan jasa sewa kendaraan kami</p>
           <a href="#" class="btn">Learn More</a>
         </div>
       </div>
@@ -175,7 +217,7 @@
     <section class="reviews" id="reviews">
       <div class="heading">
         <span>Reviews</span>
-        <h1>Apa yang mereka katakan</h1>
+        <h1>Kata Pengguna RentAll</h1>
       </div>
 
   <div class="reviews-container">
@@ -191,7 +233,7 @@
         <i class='bx bxs-star'></i>
         <i class='bx bxs-star-half'></i>
       </div>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum voluptatum aut molestiae neque accusamus voluptatibus cumque, nisi harum.</p>
+      <p>aplikasi sangat membantu dengan adanya fitur melihat lokasi terdekat jadi bisa mengetahui jarak rental terdekat.</p>
     </div>
 
     <div class="box">
@@ -206,7 +248,7 @@
         <i class='bx bxs-star'></i>
         <i class='bx bxs-star-half'></i>
       </div>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum voluptatum aut molestiae neque accusamus voluptatibus cumque, nisi harum.</p>
+      <p>dengan ada nya timer saya menjadi terbantu untuk melihat sisa waktu rental.</p>
     </div>
 
     <div class="box">
@@ -221,33 +263,18 @@
         <i class='bx bxs-star'></i>
         <i class='bx bxs-star-half'></i>
       </div>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum voluptatum aut molestiae neque accusamus voluptatibus cumque, nisi harum.</p>
+      <p>aplikasi mudah digunakan tampilannya keren dan memudahkan pengguna.</p>
     </div>
   </div>
 </section>
 
 <section class="newsletter">
-  <h2>Subscribe To Newsletter</h2>
+  <h2>Tuliskan Komentar Anda</h2>
   <div class="box">
-    <input type="text" placeholder="Masukkan Emailmu ...">
-    <a href="#" class="btn">Subscribe</a>
+    <input type="text" placeholder="Masukkan Komentarmu ...">
+    <a href="#" class="btn">Kirim</a>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- <script src="Package/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script> -->
     <script src="Package/main.js"></script>
   </body> 
